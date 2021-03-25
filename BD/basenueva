@@ -22,8 +22,8 @@ create tablet CLIENTE(
 
 create table TARJETA(
 	no_tarjeta int primary key,
-	mes int,
-	año int,
+	mes int(2),
+	año int(2),
 	cvv int,
 	saldo bigint,
 	id_usuario int,
